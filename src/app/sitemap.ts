@@ -19,7 +19,7 @@ const tools = [
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://pdf-toolkit.vercel.app'
+  const baseUrl = 'https://ind-pdf.vercel.app'
   
   const toolRoutes = tools.map((tool) => ({
     url: `${baseUrl}/tools/${tool}`,

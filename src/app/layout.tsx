@@ -17,6 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ind-pdf.vercel.app"),
   title: {
     default: "PDF Toolkit - Privacy-First PDF Tools",
     template: "%s | PDF Toolkit"
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://pdf-toolkit.vercel.app",
+    url: "https://ind-pdf.vercel.app",
     title: "PDF Toolkit - Privacy-First PDF Tools",
     description: "Merge, split, compress, and convert PDFs locally in your browser. No uploads, no sign-ups.",
     siteName: "PDF Toolkit",
